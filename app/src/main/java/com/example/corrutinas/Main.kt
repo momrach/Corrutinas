@@ -20,15 +20,15 @@ fun retornarPersona(): Flow<Persona> = flow {
 }
 
 fun main(args: Array<String>) {
-// //EJERCICIO 1
-//    GlobalScope.launch {
-//        for(x in 1..10) {
-//            print("$x -")
-//            delay(1000)
-//        }
-//    }
-//    println("Se bloquea el hilo principal del programa al llamar a readLine")
-//    readLine()
+ //EJERCICIO 1
+    GlobalScope.launch {
+        for(x in 1..10) {
+            print("$x -")
+            delay(1000)
+        }
+    }
+    println("Se bloquea el hilo principal del programa al llamar a readLine")
+    readLine()
 
 //EJERCICIO 2
 //    GlobalScope.launch {
